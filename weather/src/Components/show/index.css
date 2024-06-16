@@ -1,0 +1,79 @@
+.card-view-container {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   padding: 20px;
+ }
+ 
+ .card-view {
+   width: 100%;
+   max-width: 600px;
+   border: 2px solid white;
+   border-radius: 5px;
+   background-color: #282c34;
+   color: white;
+   padding: 20px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ }
+ 
+ .weather-main {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ 
+ .weather-main img {
+   width: 100px;
+   height: 100px;
+ }
+ 
+ .weather-details {
+   margin-top: 20px;
+ }
+ 
+ .weather-detail {
+   display: flex;
+   align-items: center;
+   margin-bottom: 10px;
+ }
+ 
+ .weather-detail p {
+   margin: 0;
+   margin-left: 10px;
+ }
+ 
+ .weather-icon {
+   font-size: 1.5rem;
+   color: #61dafb;
+ }
+ 
+ .toggle-details {
+   cursor: pointer;
+   display: flex;
+   align-items: center;
+   margin-top: 10px;
+ }
+ 
+ .toggle-icon {
+   font-size: 1.2rem;
+   margin-right: 5px;
+ }
+ 
+ .additional-details {
+   margin-top: 10px;
+   padding: 10px;
+   border-top: 1px solid #61dafb;
+ }
+ @media screen and (min-width:768px) {
+   .weather-details----222{
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+    }
+ }
+ 
+ .date-section{
+   border: 2px solid white;
+   padding: 10px;
+   border-radius: 5px;
+ }

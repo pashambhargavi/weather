@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  overflow: scroll;
+  background-color: rgb(23, 0, 70);
+  color: white;
+  padding: 20px;
+}
